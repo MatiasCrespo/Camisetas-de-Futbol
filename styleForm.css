@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+/*Titulo*/
+
+h1{
+    font-size: 70px;
+    font-family: "gill sans";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 32px 0;
+    padding: 16px;
+    background-color:#d9ad26;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 black;
+}
+
+/*Header*/
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "segoe ui";
+}
+
+nav ul{
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav a{
+    background-color:#efb810;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "segoe ui";
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 50px;
+    display:block;
+}
+
+nav > li{
+    float: left;
+}
+
+nav li a:hover{
+    background-color: #f3ca4c;
+}
+
+nav li ul{
+    display: none;
+    position:absolute;
+}
+
+nav li:hover>ul{
+    display: block;
+}
+
+h2{
+    font-family: "georgia";
+    text-shadow: 3px 3px 25px #ffff94;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+}
+
+/*Contacto*/
+
+h2{
+    font-family: "georgia";
+    text-shadow: 3px 3px 25px #ffff94;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+}
+
+#contacto{
+    padding: 80px;
+    margin: 32px auto;
+    max-width: 800px;
+    background-color:#f3efec;
+    border-radius: 150px 10px 150px 10px;
+    box-shadow: 0 6px 12px gray
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 8px;
+    margin-top: 16px;
+    font-family: "georgia";
+    font-weight: 550;
+    color: rgb(4, 4, 57);
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button{
+    font-family:"georgia";
+    font-weight: 600;
+    padding: 8px 35px;
+    background-color: #efb810;
+    color: #000;
+    border-radius: 4px;
+    margin-top: 32px;
+
+}
+
+button:hover{
+    background-color: #f3ca4c;
+}
+
+/*Footer*/
+
+footer{
+    background-color: gray;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px ;
+    margin-top: 120px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisetas de futbol</title>
+    <link rel="stylesheet" href="./styleCompra.css">
+</head>
+<body>
+    <h1>CAMISETAS DE FUTBOL</h1>
+
+    <header>
+        <nav class="contenedor">    
+        </ul>
+            <li><a href="./home.html">Inicio</a></li>
+            <li><a href="">Camisetas</a>
+                <ul>
+                    <li><a href="./home.html">Selección Argentina</a></li>
+                    <li><a href="./home.html">Fútbol Argentino</a></li>
+                    <li><a href="./home.html">Fútbol Europeo</a></li>
+                </ul>
+            </li>
+            <li><a href="./form.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <body>            
+        <div id="detalle-producto">
+            <img id="imagen-camiseta" src="" alt="Camiseta">
+            <div id="detalle-info">
+                <h3 id="descripcion-camiseta"></h3>
+                <p id="precio-sin-impuesto"></p>
+                <p>Impuesto aplicado: 21%</p>
+                <p id="precio-con-impuesto"></p>
+
+                <div class="cantidad">
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" name="cantidad" min="1" value="1">
+                </div>
+            </div>
+        </div>    
+
+        <form id="formulario-compra">
+            <h2>Datos del comprador</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+        
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required><br>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <button type="submit">Realizar Compra</button>
+            </form>
+    </body>    
+    <script src="./compra.js"></script>
+</html>
+    
